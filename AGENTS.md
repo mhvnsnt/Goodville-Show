@@ -2,6 +2,11 @@
 
 Operating manual for AI agents working in this repo. The anti-clobber laws below are mandatory for every agent, every commit, every merge.
 
+## PRE-MADE PARTS FIRST
+
+PRE-MADE PARTS FIRST (Mars, 2026-11-20): Don't hand-build what already exists and works well. Before decoding, decrypting, reverse-engineering, or building anything from scratch, go get the pre-made part from wherever it already exists and work FROM it. Sources: commercial games, open source, closed-source teardowns (study from public sources, rebuild equivalents), the fan translation / ROM hacking scene, the modding community, fan-made tools and docs, decompilations (decomps) and recompilations (recomps), community knowledge (Xentax/ZenHAX, TCRF, wikis, FAQs, archive.org). Like building a machine: you don't build a battery or a cog from scratch, you order the pre-made part and keep building. Spend the work on the innovative parts, not on re-doing what's already well-built. Only build from scratch what nobody has already built.
+
+
 # ANTI-CLOBBER LAWS (owner 2026-10-17 — the DXMMII 54k-file wipe)
 
 On 2026-10-17, commit cd3bf38 ("DXMMII limb system", PR mhvnsnt/western-heart#221) deleted 54,456 files against 105 additions. The commit message said nothing about deletions. Nobody read the deletion list before merging. The repo was 99.996% gone. These laws exist so that never happens again. Every agent, every repo, every commit, every merge.
